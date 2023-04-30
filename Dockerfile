@@ -1,10 +1,9 @@
-FROM postgres:14.2-alpine
+FROM node:10
 
 WORKDIR /usr/src/app
-ENV PORT 5432:5432
-ENV POSTGRES_PASSWORD admin
-ENV POSTGRES_DB pizza
-EXPOSE 5432
+ENV PORT 8080:8080
+
+EXPOSE 8080
 
 COPY package*.json ./
 
