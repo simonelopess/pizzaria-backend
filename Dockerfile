@@ -1,4 +1,4 @@
-FROM node:18
+FROM node
 
 WORKDIR /usr/src/app
 ENV PORT 8080:8080
