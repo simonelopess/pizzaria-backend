@@ -1,4 +1,27 @@
-PROJECT TABLES
+# Backend - Pizzaria Project
+
+### This repo is the backend from a pizza project.
+
+Technologies:
+
+- Node JS with Express
+- Postgres as Database
+- Docker
+- Prisma client as ORM
+- Cors controll access
+- Multer to image
+- JSON WEb Token to Auth
+- Bcrypt to crypto sensitive data
+
+### Install dependences
+
+`npm install` or `yarn install`
+
+### Run the project
+
+`npm run dev` or `yarn dev`
+
+### Below the database entities
 
 USER
 
